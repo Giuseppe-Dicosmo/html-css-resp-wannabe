@@ -1,17 +1,44 @@
 @media screen and (max-width: 420px) {
 
-  /* BLOCCO LEZIONI */
   .container:nth-child(odd) > .row {
     background-color: #f2f2cd;
     margin-top: 0;
   }
 
-  .container:nth-child(1) > .row{
+  .container:nth-child(1) > .row, .container:nth-child(2) > .row{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 50px;
+    width: 100%;
+  }
 
+  #why .row img {
+  height: 150px;
+}
+
+  .row {
+    font-size: 1.8em;
+    padding: 20px 0;
+  }
+
+  .row > h1 {
+    margin: 0;
+  }
+
+  .container h3 {
+    margin: 0;
+  }
 }
