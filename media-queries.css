@@ -1,0 +1,17 @@
+@media screen and (max-width: 420px) {
+
+  /* BLOCCO LEZIONI */
+  .container:nth-child(odd) > .row {
+    background-color: #f2f2cd;
+    margin-top: 0;
+  }
+
+  .container:nth-child(1) > .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
