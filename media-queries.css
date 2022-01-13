@@ -24,21 +24,29 @@
     margin-top: 50px;
     width: 100%;
   }
+  .container h1, h3 {
+    margin: 0;
+  }
 
   #why .row img {
   height: 150px;
-}
+  }
 
   .row {
     font-size: 1.8em;
+    font-weight: 500;
     padding: 20px 0;
   }
 
-  .row > h1 {
-    margin: 0;
+
+  hr {
+    display: none;
   }
 
-  .container h3 {
-    margin: 0;
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  border-bottom: 2px solid black;
   }
+
 }
